@@ -6,9 +6,9 @@ This was the challenge given - Create a RESTful API with NodeJS and Express fram
   - Installation
   - Directory Structure
   - Development
-  - - Features done
-  - - Features not done
-  - - Features not attepted
+    - Features done
+    - Features not done
+    - Features not attepted
   - Tech
   - Final Notes
 
