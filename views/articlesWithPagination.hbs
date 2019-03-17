@@ -1,0 +1,35 @@
+<a href="/">back to menu</a>
+
+<h1>{{ title }}</h1>
+<ul class="articles_list">
+  {{#each data}}
+    <li>
+        <div>
+           <ul class="article_list">
+               <li>
+                    id: {{id}}
+               </li>
+               <li>
+                    title: {{title}}
+               </li>               
+               <li>
+                    intro: {{intro}}
+               </li>
+               <li>
+                    content: {{content}}
+               </li>
+               <li>
+                    author id: {{author_id}}
+               </li>
+               <li>
+                    created: {{dates.created}}
+               </li>
+               <li>
+                    updated: {{dates.updated}}
+               </li>
+           </ul> 
+        </div>
+    </li>
+    <br>
+  {{/each}}
+</ul>

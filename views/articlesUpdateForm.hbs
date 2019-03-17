@@ -1,0 +1,16 @@
+
+<a href="/">back to menu</a>
+
+<h1>{{ title }}</h1>
+
+<form action="/articlesUpdateForm/submit" method="POST">
+    <input type="hidden" id="articleId" name="articleId" value="{{data.id}}">
+    <p>Title</p>
+    <input type="text" name="articleTitle" id="articleTitle" value="{{data.title}}"/>
+    <br>
+    <p>Intro</p>
+    <input type="text" name="articleIntro" id="articleIntro" value="{{data.intro}}"/>
+    <br>
+    <button type="submit">Update Article</button>
+    <br>
+</form>

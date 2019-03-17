@@ -1,0 +1,22 @@
+
+<a href="/">back to menu</a>
+
+<h1>{{ title }}</h1>
+
+<form action="/articlesCreate/submit" method="POST">
+    <input type="hidden" id="articleId" name="articleId" value="">
+    <p>Title</p>
+    <input type="text" name="articleTitle" id="articleTitle" value=""/>
+    <br>
+    <p>Intro</p>
+    <input type="text" name="articleIntro" id="articleIntro" value=""/>
+    <br>
+    <p>Content</p>
+    <input type="text" name="articleContent" id="articleContent" value=""/>
+    <br>
+    <p>Author ID</p>
+    <input type="number" name="articleAuthorId" id="articleAuthorId" min="0"/>
+    <br>
+    <button type="submit">Create Article</button>
+    <br>
+</form>
